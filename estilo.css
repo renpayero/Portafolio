@@ -1,0 +1,151 @@
+body{
+    background-image: url(52901.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+  }
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+ul li {
+    margin: 0;
+    padding: 0;
+}
+  
+*{
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+}
+
+.fixed_div{
+    background-image: linear-gradient(to bottom, #ffffff, #000000);
+    display: flex;
+    justify-content: space-around
+
+}
+.fixed_div nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+li:last-child {
+    margin-right: 0;
+  }
+  
+.fixed_div nav ul li a{
+    font-size: 120%;
+    color: #000000;
+}
+.fixed_div nav ul li a:hover{
+    color: #4000ff;
+}
+.fixed_div nav ul li{
+    margin: 0 2em;
+}
+  
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4em;
+}
+.contenedor {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+.contenedor img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+  
+main{
+    margin: 4em;
+}
+.sobre_mi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    padding-bottom: 1em;
+}
+.p_about_me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p_left{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    width: 1000px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+.p_right{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    width: 1000px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+.h3_redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.iconos_redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.iconos_redes li i{
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+@media (max-width: 768px) {
+    .p_about_me{
+        flex-wrap: wrap;
+    }
+    .p_left{
+        width: 100%;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .p_right{
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+  }
+  
