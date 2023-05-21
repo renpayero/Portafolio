@@ -47,12 +47,11 @@ li:last-child {
 .fixed_div nav ul li i{
     color: #000000 ;
 }
-.fixed_div nav ul li a:hover{
+.fixed_div nav ul li:hover *{
     color: #4000ff;
 }
-.fixed_div nav ul li i:hover{
-    color: #4000ff;
-}
+
+
 
 .fixed_div nav ul li{
     margin: 0 2em;
