@@ -44,7 +44,13 @@ li:last-child {
     font-size: 120%;
     color: #000000;
 }
+.fixed_div nav ul li i{
+    color: #000000 ;
+}
 .fixed_div nav ul li a:hover{
+    color: #4000ff;
+}
+.fixed_div nav ul li i:hover{
     color: #4000ff;
 }
 
