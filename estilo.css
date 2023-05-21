@@ -47,6 +47,7 @@ li:last-child {
 .fixed_div nav ul li a:hover{
     color: #4000ff;
 }
+
 .fixed_div nav ul li{
     margin: 0 2em;
 }
@@ -129,6 +130,9 @@ main{
     margin-left: 1em;
     margin-right: 1em;
 }
+.iconos_redes li i:hover{
+    color: #4000ff;
+}
 
 @media (max-width: 633px) {
     .p_about_me{
@@ -167,6 +171,9 @@ main{
         margin-bottom: 1em;
         margin-left: 1em;
         margin-right: 1em;
+    }
+    .iconos_redes_responsive li i:hover{
+        color: #4000ff;
     }
 }
   
